@@ -1,0 +1,7 @@
+export const FETCH_ORDER = "FETCH_ORDER";
+export const FETCH_ORDER_SUCCESS = "FETCH_ORDER_SUCCESS";
+export const FETCH_ORDER_FAILED = "FETCH_ORDER_FAILED";
+
+export const ADD_NEW_ORDER = "ADD_NEW_ORDER";
+export const DELETE_ORDER = "DELETE_ORDER";
+
