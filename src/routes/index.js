@@ -66,42 +66,42 @@ function Routes() {
                         component={Register}
                     />
 
-                    <PrivateRoute exact path="/">
+                    <Route exact path="/">
                         <Layout>
                             <Main/>
                         </Layout>
-                    </PrivateRoute>
+                    </Route>
 
-                    <PrivateRoute exact path="/about-us">
+                    <Route exact path="/about-us">
                         <Layout>
                             <AboutUs/>
                         </Layout>
-                    </PrivateRoute>
-                    <PrivateRoute exact path="/form">
+                    </Route>
+                    <Route exact path="/form">
                         <Layout>
                             <Form/>
                         </Layout>
-                    </PrivateRoute>
-                    <PrivateRoute exact path="/contacts">
+                    </Route>
+                    <Route exact path="/contacts">
                         <Layout>
                             <Contacts/>
                         </Layout>
-                    </PrivateRoute>
-                    <PrivateRoute exact path="/products/:id">
+                    </Route>
+                    <Route exact path="/products/:id">
                         <Layout>
                             <ProductDetail/>
                         </Layout>
-                    </PrivateRoute>
-                    <PrivateRoute exact path="/order">
+                    </Route>
+                    <Route exact path="/order">
                         <Layout>
                             <Order/>
                         </Layout>
-                    </PrivateRoute>
-                    <PrivateRoute exact path="/profile">
+                    </Route>
+                    <Route exact path="/profile">
                         <Layout>
                             <Profile/>
                         </Layout>
-                    </PrivateRoute>
+                    </Route>
 
 
                 </Switch>
