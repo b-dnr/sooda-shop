@@ -1,1 +1,1 @@
-export const url = 'https://sooda-shop.herokuapp.com'
+export const url = 'https://sooda-shop.herokuapp.com/'
