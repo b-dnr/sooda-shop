@@ -1,4 +1,5 @@
 {
+  "homepage": "http://b-dnr.github.io/sooda-shop",
   "name": "sooda-kg",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +23,7 @@
     "thunk": "^0.0.1"
   },
   "scripts": {
-    "server": "npx json-server --watch public/db-sooda-shop --port=3001",
+    "server": "json-server --watch ./db.json --port 8000",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
